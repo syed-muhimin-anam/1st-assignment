@@ -155,13 +155,13 @@ padding: 12px 20px 12px 20px;
     width: 852px;
     height: 115px;
     text-align: center;
-    margin-bottom: 48px;
     margin: 0 auto;
 }
 .target-box{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    margin-top: 48px;
 
 }
 
@@ -197,4 +197,40 @@ background: rgba(255, 223, 0, 0.05);
 .target-box a {
     color: black;
     font-size: 16px;
+}
+
+/* support section start */
+
+.support-section{
+    height:186px ;
+    width:1144px ;
+    background-image: url(assets/handshake.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 16px;
+    padding: 64px 48px;
+    color: white;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)
+}
+
+.support-section input[type="text"]{
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+background: rgb(255, 255, 255);
+padding: 19px 20px 19px 20px;
+width: 548px;
+height: 57px;
+}
+.support-section input[type="submit"]{
+    width: 120px;
+    height: 58px;
+    border-radius: 8px;
+
+background: rgb(255, 255, 255);
+padding: 17px 20px 17px 20px;
+margin-top: 70px;
 }
