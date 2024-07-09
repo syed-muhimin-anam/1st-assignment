@@ -11,6 +11,11 @@
     margin: 0;
     padding: 0;
 }
+.title{
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
 
 /* navigation section style */
 .navigation{
@@ -36,6 +41,7 @@
     opacity: 0.8;
 
 }
+/* banner section start */
 .banner-container{
     background-image: url(assets/Hero-bg.png);
     background-repeat: no-repeat;
@@ -77,3 +83,65 @@ margin-bottom: 32px;
     height: 66px;
     text-decoration: none;
 }
+
+/* web-development-section start */
+
+.web-development-section{
+    width: 946px;
+    height: 1235px;
+    padding: 80px 97px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 74px;
+}
+.web-development-box{
+    padding-top: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 96px;
+}
+
+.web-development-content{
+    width: 477px;
+    height: 220px;
+    text-align: left;
+    margin-bottom: 35px;
+}
+.web-development-content h2{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.web-development-content p{
+    margin-bottom: 32px;
+}
+.web-development-box button{
+    box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+opacity: 0.7;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+padding: 12px 20px 12px 20px;
+}
+
+/* my inspiration section style start */
+.my-inspiration-section{
+    width: 1140px;
+    height: 777px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 168px auto 150px auto;
+    
+}
+.my-inspiration-content-box{
+    width: 852px;
+    height: 115px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+/* target section */
