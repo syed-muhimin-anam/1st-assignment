@@ -145,6 +145,14 @@
     text-align: center;
     margin-bottom: 120px;
 }
+.youtube-video{
+    border: 1px solid rgb(184, 180, 180);
+    padding: 10px;
+    border-radius: 10px;
+}
+.youtube-video iframe{
+    border-radius: 10px;
+}
 
 /* target section style----------------------------------------------- */
 
