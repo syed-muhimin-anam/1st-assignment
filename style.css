@@ -146,7 +146,7 @@ padding: 12px 20px 12px 20px;
 
 .target-section{
     width: 1140px;
-    height: 463px;
+    height: auto;
     margin: 0 auto 41px auto;
 }
 .target-descreption{
@@ -195,6 +195,38 @@ background: rgba(255, 223, 0, 0.05);
 .target-box a {
     color: black;
     font-size: 16px;
+}
+/* next target */
+.next-target-section h1{
+    text-align: center;
+    margin-top: 100px;
+}
+.next-target-section>p{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+.next-target-box{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 58px;
+    padding: 40px;
+}
+.target-item a{
+    text-decoration: none;
+    font-size: 16px;
+font-weight: 700;
+color: black;
+}
+ .target-item p{
+    margin-bottom: 20px;
+}
+.target-item h3{
+    font-size: 24px;
+font-weight: 800;
+line-height: 36px;
 }
 
 /* support section start */
